@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    name: bookingservicedb
+    generate-unique-name: false
+
+  h2:
+    console.enabled: true
+server:
+  error.include-stacktrace: never
+
